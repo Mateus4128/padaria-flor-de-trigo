@@ -8,4 +8,4 @@ Site institucional responsivo desenvolvido para a **Padaria Flor de Trigo** (Gua
 * **Banco de Dados:** MySQL (`padaria_flor_de_trigo.sql`).
 
 ## Modelagem do Banco de Dados (DER)
-![Diagrama DER](padaria.jpg)
+![Diagrama DER](DER.jpg)
