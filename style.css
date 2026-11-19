@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FDF8F2;
+  color: #332218;
+  margin: 0;
+  padding: 0;
+}
+/* CABEÇALHO E MENU */
+header {
+  background-color: #5C3A21;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+nav {
+  margin-top: 15px;
+}
+nav a {
+  color: #F2B84B;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* CONTEÚDO PRINCIPAL */
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+section {
+  background-color: #FFFFFF;
+  border: 1px solid #E0D0BC;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  color: #5C3A21;
+  border-bottom: 2px solid #D99B26;
+  padding-bottom: 5px;
+}
+img {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+/* TABELA DO CARDÁPIO */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #E0D0BC;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #F3E8D8;
+  color: #5C3A21;
+}
+/* FORMULÁRIO */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input, textarea {
+  width: 96%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+button {
+  background-color: #D99B26;
+  color: #2B1A0E;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #C2861B;
+}
+#aviso {
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* RODAPÉ */
+footer {
+  background-color: #5C3A21;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* AJUSTE PARA CELULAR */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+}

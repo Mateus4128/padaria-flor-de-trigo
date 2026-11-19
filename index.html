@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padaria Flor de Trigo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- CABEÇALHO -->
+  <header>
+    <h1>Padaria Flor de Trigo</h1>
+    <p>Pães e doces artesanais fresquinhos todos os dias</p>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#horarios">Horários</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <!-- APRESENTAÇÃO -->
+    <section id="inicio">
+      <h2>Bem-vindo à Flor de Trigo</h2>
+      <p>Qualidade, ingredientes selecionados e aquele cheirinho de pão assado na hora para acompanhar o dia a dia da sua família.</p>
+    </section>
+    <!-- SOBRE A EMPRESA -->
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <img src="padaria.jpg" alt="Pães artesanais da Padaria Flor de Trigo">
+      <p>A <strong>Padaria Flor de Trigo</strong> é uma padaria artesanal focada em oferecer produtos frescos, saborosos e preparados com cuidado para os moradores da região.</p>
+      <p>Unimos receitas tradicionais e um atendimento acolhedor para tornar cada visita especial.</p>
+    </section>
+    <!-- CARDÁPIO DIGITAL -->
+    <section id="cardapio">
+      <h2>Nosso Cardápio</h2>
+      <table>
+        <tr>
+          <th>Produto</th>
+          <th>Descrição</th>
+          <th>Preço</th>
+        </tr>
+        <tr>
+          <td>Pão Francês</td>
+          <td>Assado de hora em hora, leve e crocante</td>
+          <td>R$ 16,90 / kg</td>
+        </tr>
+        <tr>
+          <td>Pão Italiano</td>
+          <td>Fermentação natural com casca crocante</td>
+          <td>R$ 18,00 / un</td>
+        </tr>
+        <tr>
+          <td>Bolo de Milho</td>
+          <td>Receita caseira feita com milho fresco</td>
+          <td>R$ 24,00 / un</td>
+        </tr>
+        <tr>
+          <td>Bolo de Cenoura</td>
+          <td>Massa fofinha com cobertura de chocolate</td>
+          <td>R$ 28,00 / un</td>
+        </tr>
+        <tr>
+          <td>Sonho de Creme</td>
+          <td>Recheado com creme de baunilha e açúcar</td>
+          <td>R$ 7,50 / un</td>
+        </tr>
+      </table>
+    </section>
+    <!-- HORÁRIOS E CANAIS DE CONTATO -->
+    <section id="horarios">
+      <h2>Horários e Localização</h2>
+      <p><strong>Segunda a Sexta:</strong> 06h00 às 20h30</p>
+      <p><strong>Sábados:</strong> 06h30 às 20h00</p>
+      <p><strong>Domingos e Feriados:</strong> 07h00 às 13h00</p>
+      <br>
+      <p><strong>Endereço:</strong> Rua das Acácias, 245 – Guarulhos/SP</p>
+      <p><strong>Telefone / WhatsApp:</strong> (11) 99999-8888</p>
+    </section>
+    <!-- FORMULÁRIO DE DÚVIDAS E ENCOMENDAS -->
+    <section id="contato">
+      <h2>Dúvidas e Encomendas</h2>
+      <p>Preencha os dados abaixo para falar conosco:</p>
+
+      <form id="formContato" action="salvar.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="seuemail@exemplo.com">
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+        <label for="mensagem">Mensagem ou Encomenda:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua dúvida ou pedido..."></textarea>
+        <button type="submit">Enviar</button>
+        <p id="aviso"></p>
+      </form>
+
+    </section>
+  </main>
+  <!-- RODAPÉ -->
+  <footer>
+    <p>Padaria Flor de Trigo - Guarulhos/SP</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
